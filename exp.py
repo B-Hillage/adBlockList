@@ -16,4 +16,4 @@ for line in lines:
 with open('flbl.txt', 'w') as new_file:
     # Записываем уникальные строки в новый файл
     for unique_line in unique_lines:
-        new_file.write(unique_line + '\n')  # Добавляем символ переноса строки между строками
+        new_file.write(unique_line + '^\n')  # Добавляем символ переноса строки между строками
